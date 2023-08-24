@@ -65,7 +65,9 @@ streamlit.header("The fruits load list contains")
 streamlit.dataframe(my_data_rows)
 
 
-fruit_choice2 = streamlit.text_input('What fruit woudl you like to add?','jackfruit')
+add_my_fruit = streamlit.text_input('What fruit woudl you like to add?','jackfruit')
+
+streamlit.write('thank fof adding ', add_my_fruit)
 
 my_cur.execute("insert into PC_RIVERY_DB.PUBLIC.FRUIT_LOAD_LIST values ('from streamlit')");
 
