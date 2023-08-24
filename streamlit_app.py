@@ -96,7 +96,7 @@ add_my_fruit = streamlit.text_input('What fruit woudl you like to add?','jackfru
 
 streamlit.write('thank fof adding ', add_my_fruit)
 
-my_cur.execute("insert into PC_RIVERY_DB.PUBLIC.FRUIT_LOAD_LIST values ('from streamlit')");
+#my_cur.execute("insert into PC_RIVERY_DB.PUBLIC.FRUIT_LOAD_LIST values ('from streamlit')");
 
 
 
